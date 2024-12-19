@@ -11,7 +11,7 @@ public class Game {
 
         Player player = new Player();
         player.setName("ruserxd");
-        System.out.printf("Auto creating a %s user", player.getName());
+        System.out.printf("Auto creating a %s user\n", player.getName());
         player.showWelcomeMessage();
     }
 }
